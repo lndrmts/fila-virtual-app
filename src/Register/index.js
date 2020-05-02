@@ -13,6 +13,7 @@ import {
   Content,
   Bottom,
 } from './styles';
+import Logo from '../assets/zerafilas.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,7 +35,7 @@ export default function Register() {
       <Container>
         <CollumnLeft>
           <Brand>
-            <h1>Fila Virtual</h1>
+            <img src={Logo} alt="ZeraFilas" />
             <p>Um novo jeito de atender, nada de Covid-19</p>
           </Brand>
         </CollumnLeft>
