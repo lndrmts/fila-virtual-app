@@ -36,7 +36,7 @@ export default function Register() {
         <CollumnLeft>
           <Brand>
             <img src={Logo} alt="ZeraFilas" />
-            <p>Um novo jeito de atender, nada de Covid-19</p>
+            <p>Um novo jeito de atender</p>
           </Brand>
         </CollumnLeft>
         <CollumnRight>
