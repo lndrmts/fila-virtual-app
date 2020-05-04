@@ -20,7 +20,7 @@ export default function Home() {
         <CollumnLeft>
           <Brand>
             <img src={Logo} alt="ZeraFilas" />
-            <p>Um novo jeito de atender</p>
+            <p>Atendimento seguro e sem fila!</p>
           </Brand>
         </CollumnLeft>
         <CollumnRight>
