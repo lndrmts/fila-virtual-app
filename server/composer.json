@@ -1,0 +1,19 @@
+{
+    "name": "zerafilas/server",
+    "require": {
+        "illuminate/database": "^7.9",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "Fabio Suenaga",
+            "email": "insane.tsunami@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "app/controllers/",
+            "Models\\": "app/models/"
+        }
+    }
+}
