@@ -1,7 +1,5 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
 $dispatcher = \FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->get('/colors', 'ColorController@getColors');
     $r->post('/colors/addcolor', 'ColorController@addColor');

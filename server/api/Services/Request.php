@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\Services;
+namespace Services;
 
 use GuzzleHttp\Client;
 
